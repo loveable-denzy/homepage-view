@@ -8,7 +8,9 @@
   font-family: 'Gilroy';
   font-weight: 700;
   font-style: normal;
-  src: local('Gilroy-Bold'), local('Gilroy Bold');
+  font-display: swap;
+  src: local('Gilroy-Bold'), local('Gilroy Bold'),
+       url('/src/assets/fonts/Gilroy-Bold.woff2') format('woff2');
 }
 
 @layer base {
@@ -55,7 +57,7 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 270 60% 50%;
 
-    --font-display: 'Playfair Display', serif;
+    --font-display: 'Gilroy', 'Playfair Display', serif;
     --font-body: 'DM Sans', sans-serif;
   }
 
