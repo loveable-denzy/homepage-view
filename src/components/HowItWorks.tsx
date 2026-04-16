@@ -4,17 +4,17 @@ const steps = [
   {
     icon: MessageSquare,
     title: "Tell Us What You Need",
-    description: "Type naturally — like texting a friend. \"I need a dentist near Markham who takes Blue Cross.\"",
+    description: "Type naturally — like texting a friend. \"Looking for dentist that speaks Spanish & direct bills my insurance.\"",
   },
   {
     icon: Search,
     title: "AI Finds Your Match",
-    description: "Our AI searches our network of 150+ verified dentists and matches you based on location, insurance, specialty, and availability.",
+    description: "Our AI searches every clinic in Canada and matches you based on what you value — location, service, anxiety, insurance, language, etc.",
   },
   {
     icon: CalendarCheck,
-    title: "Book Your Appointment",
-    description: "See real-time availability from your dentist's actual schedule and book your appointment instantly — no phone calls needed.",
+    title: "Book Appointment Online",
+    description: "See real-time appointment availability from Denzy verified clinics. For other clinics, we'll share their contact info.",
   },
 ];
 
@@ -26,8 +26,8 @@ const HowItWorks = () => {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
             How It Works
           </h2>
-          <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            From search to booked appointment — all in one conversation.
+          <p className="text-muted-foreground text-lg max-w-xl mx-auto ml-[10px] mr-[10px]">
+            No more endlessly searching on Google or asking around for recommendations.<br />Tell us once. We search everywhere so you don't have to.
           </p>
         </div>
 
