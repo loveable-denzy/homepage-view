@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">How it Works</a>
           <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Features</a>
           <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">For Dentists</a>
-          <Button size="sm">Get Started</Button>
+          <Button size="sm" className="bg-[#9e46f6]">Login</Button>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setMobileOpen(!mobileOpen)}>
@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-sm text-muted-foreground">How it Works</a>
           <a href="#features" className="text-sm text-muted-foreground">Features</a>
           <a href="#" className="text-sm text-muted-foreground">For Dentists</a>
-          <Button size="sm" className="w-fit">Get Started</Button>
+          <Button size="sm" className="w-fit bg-[#9e46f6]">Login</Button>
         </div>
       )}
     </nav>
