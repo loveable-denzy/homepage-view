@@ -13,7 +13,7 @@ export default {
       },
     },
     fontFamily: {
-      display: ['Playfair Display', 'serif'],
+      display: ['Gilroy', 'Playfair Display', 'serif'],
       headline: ['Gilroy', 'sans-serif'],
       body: ['DM Sans', 'sans-serif'],
     },
