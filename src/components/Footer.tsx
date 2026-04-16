@@ -1,4 +1,4 @@
-import logo from "@/assets/dentafind-logo.png";
+import logo from "@/assets/denzy-logo.png";
 
 const Footer = () => {
   return (
