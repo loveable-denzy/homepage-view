@@ -1,9 +1,9 @@
 import { Shield, Clock, MapPin, Star, CreditCard, CalendarCheck } from "lucide-react";
 
 const features = [
-  { icon: MapPin, title: "Location-Smart", desc: "Finds dentists closest to you from our verified network." },
-  { icon: CreditCard, title: "Insurance Match", desc: "Instantly filters for dentists who accept your plan." },
-  { icon: Clock, title: "Real-Time Availability", desc: "Live appointment slots pulled directly from your dentist's scheduling system." },
+  { icon: MapPin, title: "Location-Smart", desc: "Searches every dental clinic in your area, not just the ones who paid to be listed." },
+  { icon: CreditCard, title: "Insurance Match", desc: "We'll match you with dentists who accept your specific dental insurance plan." },
+  { icon: Clock, title: "Real-Time Availability", desc: "See open appointment slots from Denzy verified clinics. No phone calls needed." },
   { icon: CalendarCheck, title: "Instant Online Booking", desc: "Book confirmed appointments without phone calls or waiting." },
   { icon: Shield, title: "Vetted Network", desc: "Every dentist is hand-selected, licensed, and credential-verified." },
   { icon: Star, title: "Verified Reviews", desc: "Authentic patient reviews from our booking network." },
@@ -15,10 +15,11 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-            End-to-End Dental Booking
+            The Smarter Way to Find & Book A Dentist
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            We're integrated with our dentists' software so you get real availability and confirmed appointments.
+            With so many dental clinic options, it's hard to know who to trust. <br />
+            Save time and let our AI find your best match.
           </p>
         </div>
 
