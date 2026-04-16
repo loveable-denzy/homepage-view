@@ -5,7 +5,7 @@ const features = [
   { icon: CreditCard, title: "Insurance Match", desc: "We'll match you with dentists who accept your specific dental insurance plan." },
   { icon: Clock, title: "Real-Time Availability", desc: "See open appointment slots from Denzy verified clinics. No phone calls needed." },
   { icon: CalendarCheck, title: "Instant Online Booking", desc: "Book confirmed appointments without phone calls or waiting." },
-  { icon: Shield, title: "Vetted Network", desc: "Every dentist is hand-selected, licensed, and credential-verified." },
+  { icon: Shield, title: "Vetted Network", desc: "Some clinics connect with Denzy to offer online booking and keep profiles up-to-date." },
   { icon: Star, title: "Verified Reviews", desc: "Authentic patient reviews from our booking network." },
 ];
 
