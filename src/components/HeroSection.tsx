@@ -16,7 +16,7 @@ const HeroSection = () => {
       {/* Background gradient orb */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl pointer-events-none" />
 
-      <div className="container mx-auto text-center relative z-10 px-[30px]">
+      <div className="container mx-auto text-center relative z-10 px-[30px] pb-[40px]">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-6">
           <Sparkles size={14} />
           AI-Powered Dental Matching & Booking
