@@ -7,10 +7,11 @@ const CTASection = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Ready to Find & Book Your Dentist?
+            Ready to Find the Right Dentist?
           </h2>
           <p className="text-muted-foreground text-lg mb-8">
-            Skip the phone calls. Tell us what you need and book a real appointment with a dentist in our network — in minutes.
+            Most people just Google "dentist near me" and hope for the best.<br />
+            Denzy helps you find the one that's actually right for you.
           </p>
           <Button size="lg" className="text-base px-8 py-6 rounded-xl gap-2">
             Find in Seconds <ArrowRight size={18} />
