@@ -23,7 +23,8 @@ const HeroSection = () => {
         </div>
 
         <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight max-w-4xl mx-auto mb-6">
-          Find the right dentist,{" "}
+          Find the right dentist,
+          <br />
           <span className="text-gradient">not just the nearest.</span>
         </h1>
 
