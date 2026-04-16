@@ -1,11 +1,11 @@
-import { Shield, Clock, MapPin, Star, CreditCard, CalendarCheck } from "lucide-react";
+import { Scale, MapPin, Star, Sparkles, CalendarCheck, Shield } from "lucide-react";
 
 const features = [
-  { icon: Shield, title: "Non-Biased", desc: "Searches every dental clinic in your area, not paid listings or sponsored clinics." },
+  { icon: Scale, title: "Non-Biased", desc: "Searches every dental clinic in your area, not paid listings or sponsored clinics." },
   { icon: MapPin, title: "Location Smart", desc: "We'll ask to auto-detect your location so we can match you with dentists nearby." },
-  { icon: CreditCard, title: "Personalized Match", desc: "Get matched based on your unique needs — treatment, insurance, anxiety, and more." },
-  { icon: Clock, title: "Real-Time Availability", desc: "See open appointment slots from Denzy verified clinics. No phone calls needed." },
-  { icon: CalendarCheck, title: "Denzy Verified", desc: "Some clinics connect with Denzy to offer online booking and keep profiles up-to-date." },
+  { icon: Sparkles, title: "Personalized Match", desc: "Get matched based on your unique needs — treatment, insurance, anxiety, and more." },
+  { icon: CalendarCheck, title: "Real-Time Availability", desc: "See open appointment slots from Denzy verified clinics. No phone calls needed." },
+  { icon: Shield, title: "Denzy Verified", desc: "Some clinics connect with Denzy to offer online booking and keep profiles up-to-date." },
   { icon: Star, title: "Honest Reviews", desc: "Read real patients reviews pulled from Google, Yelp, and Denzy." },
 ];
 
