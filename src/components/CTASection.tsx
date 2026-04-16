@@ -13,7 +13,7 @@ const CTASection = () => {
             Skip the phone calls. Tell us what you need and book a real appointment with a dentist in our network — in minutes.
           </p>
           <Button size="lg" className="text-base px-8 py-6 rounded-xl gap-2">
-            Start Searching <ArrowRight size={18} />
+            Find in Seconds <ArrowRight size={18} />
           </Button>
         </div>
       </div>
