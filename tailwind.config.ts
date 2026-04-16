@@ -14,6 +14,7 @@ export default {
     },
     fontFamily: {
       display: ['Playfair Display', 'serif'],
+      headline: ['Gilroy', 'sans-serif'],
       body: ['DM Sans', 'sans-serif'],
     },
     extend: {

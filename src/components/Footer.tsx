@@ -1,13 +1,12 @@
+import logo from "@/assets/dentafind-logo.png";
+
 const Footer = () => {
   return (
     <footer className="border-t border-border py-12 bg-background">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">D</span>
-            </div>
-            <span className="font-display text-lg font-semibold text-foreground">DentaFind</span>
+            <img src={logo} alt="DentaFind" className="h-7 w-auto" />
           </div>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
