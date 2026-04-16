@@ -1,12 +1,12 @@
 import { Shield, Clock, MapPin, Star, CreditCard, CalendarCheck } from "lucide-react";
 
 const features = [
-  { icon: MapPin, title: "Location-Smart", desc: "Searches every dental clinic in your area, not just the ones who paid to be listed." },
-  { icon: CreditCard, title: "Insurance Match", desc: "We'll match you with dentists who accept your specific dental insurance plan." },
+  { icon: Shield, title: "Non-Biased", desc: "Searches every dental clinic in your area, not paid listings or sponsored clinics." },
+  { icon: MapPin, title: "Location Smart", desc: "We'll ask to auto-detect your location so we can match you with dentists nearby." },
+  { icon: CreditCard, title: "Personalized Match", desc: "Get matched with a dentist that fits your unique needs — from insurance to language." },
   { icon: Clock, title: "Real-Time Availability", desc: "See open appointment slots from Denzy verified clinics. No phone calls needed." },
-  { icon: CalendarCheck, title: "Instant Online Booking", desc: "Book confirmed appointments without phone calls or waiting." },
-  { icon: Shield, title: "Vetted Network", desc: "Some clinics connect with Denzy to offer online booking and keep profiles up-to-date." },
-  { icon: Star, title: "Verified Reviews", desc: "Authentic patient reviews from our booking network." },
+  { icon: CalendarCheck, title: "Denzy Verified", desc: "Some clinics connect with Denzy to offer online booking and keep profiles up-to-date." },
+  { icon: Star, title: "Honest Reviews", desc: "Read real patients reviews pulled from Google, Yelp, and Denzy." },
 ];
 
 const FeaturesSection = () => {
