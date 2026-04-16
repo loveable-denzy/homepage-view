@@ -65,15 +65,15 @@ const HeroSection = () => {
         <div className="mt-14 flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
           <span className="flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-primary" />
+            100% Free to Use
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full bg-primary" />
             4.7★ Trustpilot Rating
           </span>
           <span className="flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-primary" />
-            10,000+ Booked Appointments
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-primary" />
-            Data on 15,000+ Clinics
+            10,000+ Patient Bookings
           </span>
         </div>
       </div>
