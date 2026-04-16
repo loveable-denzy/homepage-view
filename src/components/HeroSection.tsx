@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Send, Sparkles } from "lucide-react";
 
 const suggestions = [
-  "Dentists in Markham accepting new patients",
+  "Vancouver dentist accepting Sunlife",
   "Affordable teeth whitening near me",
-  "Dentists accepting insurance in Toronto",
-  "Pediatric dentist with weekend hours",
+  "My tooth really hurts",
+  "Need a dentist with weekend availability",
 ];
 
 const HeroSection = () => {
@@ -39,7 +39,7 @@ const HeroSection = () => {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Try: &quot;dentists in Markham accepting insurance&quot;"
+              placeholder="Try: &quot;best dentist for dental anxiety&quot;"
               className="w-full bg-transparent px-6 py-5 pr-14 text-foreground placeholder:text-muted-foreground text-base md:text-lg rounded-2xl focus:outline-none focus:ring-2 focus:ring-ring/30"
             />
             <button className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-xl bg-[#9139ea] text-primary-foreground flex items-center justify-center hover:opacity-90 transition-opacity">
