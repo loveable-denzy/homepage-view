@@ -13,8 +13,8 @@ export default {
       },
     },
     fontFamily: {
-      display: ['DM Sans', 'sans-serif'],
-      headline: ['DM Sans', 'sans-serif'],
+      display: ['Gilroy', 'Playfair Display', 'serif'],
+      headline: ['Gilroy', 'sans-serif'],
       body: ['DM Sans', 'sans-serif'],
     },
     extend: {
