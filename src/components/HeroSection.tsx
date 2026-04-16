@@ -29,9 +29,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10">
-          Tell us what you're looking for in plain language.
-          <br />
-          We'll match you with the right dentist. Book online in minutes.
+          Tell us what you're looking for in plain language. We'll match you with the right dentist. Book online in minutes.
         </p>
 
         {/* Chat-style input */}
