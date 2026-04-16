@@ -27,7 +27,7 @@ const HowItWorks = () => {
             How It Works
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto text-center px-4">
-            No Googling over and over or asking around for recommendations.<br />Tell us once and we'll do the research for you.
+            No more Googling over and over or asking around for recommendations.<br />Tell us once and we'll do the research for you.
           </p>
         </div>
 
