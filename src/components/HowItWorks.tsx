@@ -26,7 +26,7 @@ const HowItWorks = () => {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
             How It Works
           </h2>
-          <p className="text-muted-foreground text-lg max-w-xl mx-auto ml-[10px] mr-[10px]">
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto text-center px-4">
             No more endlessly searching on Google or asking around for recommendations.<br />Tell us once. We search everywhere so you don't have to.
           </p>
         </div>
