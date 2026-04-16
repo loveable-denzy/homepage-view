@@ -42,7 +42,7 @@ const HeroSection = () => {
               placeholder="Try: &quot;dentists in Markham accepting insurance&quot;"
               className="w-full bg-transparent px-6 py-5 pr-14 text-foreground placeholder:text-muted-foreground text-base md:text-lg rounded-2xl focus:outline-none focus:ring-2 focus:ring-ring/30"
             />
-            <button className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-xl bg-primary text-primary-foreground flex items-center justify-center hover:opacity-90 transition-opacity">
+            <button className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-xl bg-[#9139ea] text-primary-foreground flex items-center justify-center hover:opacity-90 transition-opacity">
               <Send size={18} />
             </button>
           </div>
