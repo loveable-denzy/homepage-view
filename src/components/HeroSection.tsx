@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="container mx-auto text-center relative z-10 px-[30px] pb-[100px] mb-[40px] mt-[10px] pt-[25px] py-[40px]">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-6">
           <Sparkles size={14} />
-          AI-Powered Dental Matching & Booking
+          AI-Powered Dental Search
         </div>
 
         <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight max-w-4xl mx-auto mb-6">
